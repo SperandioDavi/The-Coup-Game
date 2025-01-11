@@ -7,6 +7,8 @@ import jakarta.annotation.PostConstruct;
 
 public class Ambassador extends Influence {
     
+    private final String name = "Ambassador";
+
     public Ambassador(Player owner){
         super(owner);
         }

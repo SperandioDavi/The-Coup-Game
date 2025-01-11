@@ -38,6 +38,19 @@ public class Player {
         this.isEliminated = isEliminated;
     }
 
-    
+    public int getCoins() {
+        return coins;
+    }
 
+    public void setCoins(int coins) {
+        this.coins = coins;
+    }
+
+    public boolean isIsEliminated() {
+        return isEliminated;
+    }
+
+    public void setIsEliminated(boolean isEliminated) {
+        this.isEliminated = isEliminated;
+    }
 }
