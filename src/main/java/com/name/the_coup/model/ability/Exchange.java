@@ -21,4 +21,9 @@ public class Exchange{
             }
         }
     }
+
+    public static void execute(Player target, Influence influence){
+        Influence[] influences = {influence};
+        execute(target, influences);
+    }
 }
